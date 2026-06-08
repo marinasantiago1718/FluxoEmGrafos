@@ -91,7 +91,7 @@ Isso blinda a aplicação contra caminhos ineficientes ou loops redundantes no g
 Após o término das iterações do Edmonds-Karp, a estrutura mantém os estados da última BFS realizada a partir da origem $s=1$. Essa busca visitou todos os vértices que ainda possuem capacidade residual positiva a partir de $1$.
 
 * **Vértices Alcançáveis (Lado $S$ do corte):** $\{1, 2, 3\}$
-  * *(Nota: O nó 2 é alcançado via $1 \rightarrow 2$, o nó 3 é alcançado via $1 \rightarrow 3$ ou $2 \rightarrow 3$, mas o nó 4 está isolado).*
+  * *(Nota: O nó 2 é alcançado via $1 -> 2$, o nó 3 é alcançado via $1 -> 3$ ou $2 -> 3$, mas o nó 4 está isolado).*
 * **Vértices Não Alcançáveis (Lado $T$ do corte):** $\{4\}$
 
 Para descobrir quais ruas fechar, percorremos a lista de **ruas originais** fornecidas na entrada. Uma rua que conecta um vértice $u$ a um vértice $v$ deve ser fechada se, e somente se, um dos vértices foi alcançado pela BFS e o outro não.
