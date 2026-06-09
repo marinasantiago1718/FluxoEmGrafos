@@ -90,7 +90,7 @@ redirecionada quando um caminho aumentador melhor é encontrado.
    conectam a parte alcançável da rede à parte isolada indicam com precisão as 
    ruas que a polícia deve fechar (Corte Mínimo).
 
-  ---
+---
 
   ## Conversão do Resultado em Resposta
 
@@ -108,7 +108,7 @@ do Fluxo Máximo / Corte Mínimo e é feita em dois passos:
    do Grupo S a um vértice do Grupo T. Essas são as ruas saturadas que devem 
    ser exibidas na resposta.
 
-  ---
+---
 
   ## Corte Mínimo e Reconstrução de caminhos
 
