@@ -22,7 +22,7 @@ Abra o terminal na pasta do projeto, compile o código e execute a classe princi
 javac Main.java
 
 # Passo 2: Executar a classe compilada passando o arquivo de entrada
-java Main input.txt
+java Main < entrada_do_problema.txt
 ```
 
 ---
