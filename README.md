@@ -169,3 +169,4 @@ reconstrução através de duas etapas:
 ---
 
 ## Aceppted
+<img src="evidencia/accepted.png" width="600">
